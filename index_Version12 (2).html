@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Medication Tracker – Change History Demo</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Chart.js, html2canvas, jspdf libraries etc should be included for full export functionality -->
+</head>
+<body>
+<div class="app-container">
+  <div class="sidebar" id="historySidebar">
+    <h3>Change Dates</h3>
+    <ul id="changeDatesList">
+      <!-- JS fills in dates -->
+    </ul>
+  </div>
+
+  <main class="main-content">
+    <h1>Medication Change History</h1>
+    <div id="changeHistoryDetail">
+      <!-- JS fills in history for selected date -->
+    </div>
+  </main>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
